@@ -19,7 +19,6 @@ public class GenMod
 
     public GenMod() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        System.out.println("Hello World!!!");
         MinecraftForge.EVENT_BUS.register(this);
     }
 
